@@ -6,11 +6,7 @@ export default function Recharts() {
 
     return (
         <Container>
-            <PieChart>
-                <Pie dataKey={data}>
-
-                </Pie>
-            </PieChart>
+            Recharts
         </Container>
     )
 }
