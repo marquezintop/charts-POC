@@ -5,6 +5,7 @@ export const HeaderDiv = styled.div`
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 2;
 
   display: flex;
   flex-direction: row;
@@ -28,6 +29,6 @@ export const StyledLink = styled(Link)`
 
 export const ContainerLinks = styled.div`
   display: flex;
-  gap: 1rem;
+  gap: 10rem;
   padding-right: 2rem;
 `;
