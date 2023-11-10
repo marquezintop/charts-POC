@@ -5,14 +5,14 @@ import {
     Route,
   } from "react-router-dom";
 import { AppLayout } from "./layout";
-import { ReactVis, Recharts } from "./pages";
+import { Nivo, Recharts } from "./pages";
   
   function Routes() {
     const router = createBrowserRouter(
       createRoutesFromElements(
         <Route>
           <Route path="/" element={<AppLayout />}>
-            <Route path="/react-vis" element={<ReactVis />} />
+            <Route path="/nivo" element={<Nivo />} />
             <Route index element={<Recharts />} />
             <Route path="*" element={<Recharts />} />
           </Route>

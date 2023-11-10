@@ -21,7 +21,7 @@ const CustomTooltip = ({ active, payload, label }) => {
 export default function PieChartSimple({ data, colors }) {
 
   return (
-      <PieChart width={400} height={400}>
+      <PieChart width={500} height={400}>
         <Pie
           dataKey="value"
           isAnimationActive={false}

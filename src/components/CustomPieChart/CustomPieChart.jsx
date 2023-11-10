@@ -15,8 +15,6 @@ const renderActiveShape = (props) => {
   const ey = my;
   const textAnchor = cos >= 0 ? 'start' : 'end';
 
-  console.log(mili2time(value))
-
   return (
     <g>
       <text x={cx} y={cy} dy={8} textAnchor="middle" fill="white">

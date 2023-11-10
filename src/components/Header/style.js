@@ -12,7 +12,7 @@ export const HeaderDiv = styled.div`
   align-items: center;
   justify-content: center;
 
-  width: 100vw;
+  width: 100%;
   height: 4rem;
   background-color: #171717;
 `;
@@ -29,6 +29,6 @@ export const StyledLink = styled(Link)`
 
 export const ContainerLinks = styled.div`
   display: flex;
-  gap: 10rem;
-  padding-right: 2rem;
+  width: 100%;
+  justify-content: space-around;
 `;

@@ -5,7 +5,7 @@ export default function Header() {
     <HeaderDiv>
       <ContainerLinks>
         <StyledLink to="/">Recharts</StyledLink>
-        <StyledLink to="/react-vis">React-Vis</StyledLink>
+        <StyledLink to="/nivo">Nivo</StyledLink>
       </ContainerLinks>
     </HeaderDiv>
   );
